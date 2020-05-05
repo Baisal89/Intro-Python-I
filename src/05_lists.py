@@ -27,6 +27,8 @@ print(x_y)
 del x_y[4]
 print(x_y)
 
+
+
 # # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # # YOUR CODE HERE
 #print(x_y.insert(5, 99))

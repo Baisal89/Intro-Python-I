@@ -8,8 +8,8 @@ changes, you'll get a TypeError saying you can't perform an operation
 on a string and an integer.
 """
 
-# x = 5
-# y = '7'
+x = 5
+y = '7'
 
 # Write a print statement that combines x + y into the integer value 12
 
@@ -19,11 +19,13 @@ on a string and an integer.
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
-x = (50, 4)
-y = (7, 3)
+# x = (50, 4)
 
-#print(x + y)
-addd = 0
-for i in x, y:
-    addd = addd + i
-print(addd)
+# y = (7, 3)
+
+# #print(x + y)
+# addd = 0
+# for i in x, y:
+#     addd = addd + i
+# print(addd)
+print(x + int(y))
