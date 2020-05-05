@@ -29,10 +29,10 @@ print(y)
 
 a = ["foo", "bar", "baz"]
 
-y = []
 
-Upper = [x.upper() for x in a]
-print(Upper)
+
+all_elem = [x.upper() for x in a]
+print(all_elem)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
@@ -40,6 +40,8 @@ print(Upper)
 x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = []
+y = [x[t] for t in range(len(x)) if t%2==0]
+yy = [int(t) for t.strip() in x if t%2 == 0]
 
 print(y)
+

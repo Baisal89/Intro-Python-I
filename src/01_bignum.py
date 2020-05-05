@@ -33,4 +33,4 @@
 #     print('2 raised to the power of', i, 'is', result[i])
 
 square = [num ** 2 for num in range(65536) ]
-print(square)
+print(square)  
