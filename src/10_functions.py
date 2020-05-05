@@ -1,8 +1,10 @@
 # Write a function is_even that will return true if the passed-in number is even.
 
 # YOUR CODE HERE
+
+
 def is_even(numbers):
-    if numbers % 2 == 0 :
+    if numbers % 2 == 0:
         return True
     else:
         return False

@@ -14,6 +14,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 file = open('foo.txt', mode='rt')
 
 
+
 for line in file:
     print(line)
 

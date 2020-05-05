@@ -4,8 +4,9 @@
 # When you use a variable in a function, it's local in scope to the function.
 x = 12
 
+
 def change_x():
-    global x #making python use x in the global scope
+    global x  # making python use x in the global scope
     x = 99
 
 change_x()
